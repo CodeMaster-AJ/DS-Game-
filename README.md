@@ -1,51 +1,66 @@
+# 🧙 Horcrux Hunt: A Harry Potter Text-Based Adventure Game (C++)
 
-# 📘 Project: Find Horcrux - A Harry Potter Text Adventure Game
+Welcome to **Horcrux Hunt**, a command-line based adventure game where you step into the magical world of **Harry Potter** and use the power of **Data Structures** to find Horcruxes, collect magical items, and defeat **Voldemort**! 🪄⚡
 
-## 🎮 Project Overview
-**Find Horcrux** is a console-based text adventure game designed as a C++ Data Structures project. It immerses the player in the world of Harry Potter, where the goal is to collect magical items like the Elder Wand and Horcrux, and defeat Voldemort.
+> 🚀 Built with C++ using **Stack**, **Queue**, **Linked List**, and **Graph (Adjacency List)**
+
+---
+
+## 🎮 Game Objective
+
+Navigate through Hogwarts and magical places, complete quests, collect items, and use your logical skills to win the game — all while learning core **data structure concepts**.
 
 ---
 
 ## 🧠 Data Structures Used
 
-### 1. Stack (📚 Room History)
-- **Purpose**: Stores the history of rooms the player has visited.
-- **Use Case**: Helps the player go "back" to the previous room using LIFO (Last In, First Out).
-
-### 2. Queue (📜 Task List)
-- **Purpose**: Manages tasks to be completed in order (e.g., find wand → get horcrux → defeat Voldemort).
-- **Use Case**: Enforces task sequence using FIFO (First In, First Out).
-
-### 3. Linked List (🧳 Inventory)
-- **Purpose**: Dynamic storage for magical items the player collects.
-- **Use Case**: Allows adding and checking for items (e.g., check if player has Elder Wand).
+| Data Structure | Usage |
+|----------------|-------|
+| **Graph (Adjacency List)** | Represents the map of Hogwarts (rooms & connections) |
+| **Stack** | Backtracking to previous rooms |
+| **Queue** | Quest management (FIFO tasks) |
+| **Linked List** | Inventory management (add/search items) |
 
 ---
 
-## 🗺️ Game Flow
+## 🧩 Features
 
-- Starts at **Gryffindor Common Room**
-- Player uses commands:
-  - `move [location]` to explore
-  - `back` to revisit previous location
-  - `help` for instructions
-  - `exit` to quit
-- The goal is to collect:
-  - **Elder Wand** (from Dumbledore’s Office)
-  - **Horcrux** (from Forbidden Forest)
-  - **Final Battle** in Chamber of Secrets
+✅ Text-based CLI adventure  
+✅ ASCII Art title screen  
+✅ Help & error guidance  
+✅ Quest-based item collection  
+✅ Multiple paths from each room  
+✅ Interactive inventory and progress tracking
 
 ---
 
-## 💡 How to Compile and Run
+## 🕹️ How to Play
 
-```bash
-g++ horcrux.cpp -o horcrux
-./horcrux
-```
+Run the game and use these commands:
+
+| Command | Description |
+|--------|-------------|
+| `move N` | Move to the N-th connected room |
+| `back` | Go back to the previous room |
+| `inventory` | See what items you’ve collected |
+| `help` | View all available commands |
+| `exit` | Quit the game |
 
 ---
 
-## 🔚 Conclusion
 
-This project is a perfect demonstration of how basic data structures (Stack, Queue, Linked List) can be used to build a fun and functional adventure game in C++.
+---
+
+## 📚 Learning Outcomes
+
+- Understand practical use of **Stack, Queue, Linked List, Graphs**
+- Build a fun and interactive project in **C++**
+- Develop better understanding of **game state & command logic**
+
+---
+
+## 🧑‍💻 Developed By
+
+**Amandeep Singh Jadhav**  
+B.Tech AIML | 2025
+
