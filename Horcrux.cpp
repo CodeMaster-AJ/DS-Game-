@@ -40,14 +40,11 @@ struct Room {
 
 // ---------- Game Title ----------
 void printTitle() {
-    cout << "\n";
-    cout << "┌────────────────────────────────────────────┐\n";
-    cout << "│                                            │\n";
-    cout << "│         ✧ HORCRUX HUNT ✧                  │\n";
-    cout << "│     A Harry Potter Adventure Game          │\n";
-    cout << "│                                            │\n";
-    cout << "└────────────────────────────────────────────┘\n";
-    cout << "\n";
+   cout << "\n";
+    cout << "┌────────────────────────────┐\n";
+    cout << "│       ✧ HORCRUX HUNT ✧          │ \n";
+    cout << "│    A Harry Potter Adventure      │\n";
+    cout << "└────────────────────────────┘\n";
     cout << "\n";
 }
 
